@@ -31,7 +31,7 @@ contract concate{
         return keccak256(bytes(strConcat5("a","b","c","d","e")));
     }
     function print2() public view returns (bytes memory){
-        return abi.encodePacked("LiP4vc9ZMeadRdm0wNL4mqibIRmYB8DwadUt3H1zCEMtLD4JyfyZNEknVr3QNvfNYoxCe44CKTvChCsLDSMFuqGVv5Fa2ghxTjYM6nZkS4IgdSI29Kti6EYC2fkNHoggkiNYWs4U0WB6XJ7M3GFROkM7WQJqATo7iA15STppDooKXXU3gMR4OXebtpyWC5RJkJiepT2t","b","c","d","e");
+        return abi.encodePacked("a","b","c","d","e");
     }
 
 }
