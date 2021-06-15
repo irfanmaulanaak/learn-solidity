@@ -54,7 +54,7 @@ contract Party{
     function getMemberList() public view returns (address[] memory){
         return memberList;
     }
-    modifier restricted {
+    modifier onlyManager {
         require(msg.sender == manager);
         _;
     }
